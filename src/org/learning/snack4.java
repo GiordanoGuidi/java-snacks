@@ -13,7 +13,8 @@ public class snack4 {
         String word =(scanner.nextLine());
         //Capovolgo i caratteri della stringa
         StringBuilder reverseWord= new StringBuilder(word).reverse();
-        //Controllo se la parola di partenza è uguale a quella capovolta
+        /*Controllo se la parola di partenza è uguale
+         a quella capovolta e trasformo reverseWord in stringa*/
         if (word.equals(reverseWord.toString())){
             System.out.println("La parola è palindroma");
         }else {
